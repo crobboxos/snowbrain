@@ -1,1 +1,146 @@
 graph LR
+  N1["table:sys_atf_performance_stat_transaction"]
+  N2["table:sys_transaction_pattern"]
+  N1 -->|transaction_pattern| N2
+  N3["table:cmdb_ci_lb_service"]
+  N4["table:cmn_cost_center"]
+  N3 -->|cost_center| N4
+  N5["table:cmdb_ci_db_mssql_int_job"]
+  N6["table:core_company"]
+  N5 -->|vendor| N6
+  N7["table:cmdb_ci_appl_now_app"]
+  N7 -->|vendor| N6
+  N8["table:sn_customerservice_registration"]
+  N9["table:customer_account"]
+  N8 -->|account| N9
+  N10["table:sys_user"]
+  N8 -->|user| N10
+  N11["table:var__m_sys_hub_action_output_832691120f2c7300c760001ea8767e4b"]
+  N11 -->|user| N10
+  N12["table:cmdb_ci_appl_now_app_comp"]
+  N12 -->|cost_center| N4
+  N13["table:cmdb_model"]
+  N12 -->|model_id| N13
+  N14["table:cmdb_ci_app_server_ora_ias_m"]
+  N15["table:cmn_department"]
+  N14 -->|department| N15
+  N16["table:cmdb_ci_lb_modjk"]
+  N16 -->|vendor| N6
+  N17["table:cmdb_ci_iisdirectory"]
+  N17 -->|supported_by| N10
+  N17 -->|model_id| N13
+  N18["table:ecc_agent_capability_m2m"]
+  N19["table:ecc_agent_capability"]
+  N18 -->|capability| N19
+  N20["table:discovery_log"]
+  N21["table:cmdb_ci"]
+  N20 -->|cmdb_ci| N21
+  N22["table:service_offering"]
+  N22 -->|managed_by| N10
+  N23["table:cmn_location"]
+  N22 -->|location| N23
+  N24["table:var__m_sys_hub_trigger_output_c43a1011c36813002841b63b12d3ae15"]
+  N25["table:sc_req_item"]
+  N24 -->|request_item| N25
+  N26["table:sys_cs_notification"]
+  N27["table:sys_notification_execution"]
+  N26 -->|notification_execution| N27
+  N28["table:cmdb_ci_lvm_pool"]
+  N28 -->|manufacturer| N6
+  N29["table:var__m_sys_hub_action_input_07b905a487110300123eaf8e36cb0bab"]
+  N30["table:incident"]
+  N29 -->|ah_incident| N30
+  N31["table:cmdb_ci_endpoint_nat"]
+  N31 -->|department| N15
+  N32["table:cmdb_ci_routing_policy"]
+  N32 -->|manufacturer| N6
+  N33["table:cmdb_ci_sa_dynamic_policy"]
+  N33 -->|cost_center| N4
+  N34["table:u_cmdb_ci_phone_numbers"]
+  N34 -->|cost_center| N4
+  N35["table:sys_sg_navigation_section_destination_applet_launcher"]
+  N36["table:sys_sg_applet_launcher"]
+  N35 -->|applet_launcher| N36
+  N37["table:sys_sg_navigation_section_m2m_destination"]
+  N38["table:sys_sg_navigation_section_destination"]
+  N37 -->|navigation_section_destination| N38
+  N39["table:sn_customerservice_case"]
+  N40["table:customer_contact"]
+  N39 -->|u_additional_contacts| N40
+  N41["table:sys_ux_composite_datasource_filter"]
+  N42["table:sys_ux_composite_data_filter"]
+  N41 -->|filter| N42
+  N43["table:sys_development_permission"]
+  N44["table:sys_development_permission_set"]
+  N43 -->|permission_set| N44
+  N45["table:var__m_sys_hub_flow_input_847740da143f5210f8779da9137d35c1"]
+  N46["table:kb_knowledge"]
+  N45 -->|knowledge| N46
+  N47["table:nlq_table_guesser_query_log0005"]
+  N47 -->|user| N10
+  N48["table:sys_ux_lib_component"]
+  N48 -->|inner_components| N48
+  N49["table:cmdb"]
+  N49 -->|model_id| N13
+  N49 -->|supported_by| N10
+  N50["table:var__m_sys_hub_flow_input_a206172a777516100239dbad6b5a99b8"]
+  N50 -->|case| N39
+  N51["table:cmdb_ci_endpoint_weblogic_module"]
+  N51 -->|supported_by| N10
+  N51 -->|vendor| N6
+  N52["table:sys_user_group"]
+  N51 -->|support_group| N52
+  N53["table:cmdb_ci_endpoint_biztalk"]
+  N53 -->|supported_by| N10
+  N53 -->|vendor| N6
+  N53 -->|support_group| N52
+  N54["table:sys_hub_flow_output"]
+  N55["table:sys_hub_flow_base"]
+  N54 -->|model| N55
+  N56["table:par_export_job"]
+  N56 -->|run_as| N10
+  N57["table:var__m_sys_hub_step_ext_input_7f8ff52eff120110456d766cf43bf193"]
+  N58["table:cmdb_data_management_task"]
+  N57 -->|task| N58
+  N59["table:var__m_ga_guidance_input_bad37dc577191110e07f2a647a5a991e"]
+  N59 -->|assignment_group| N52
+  N60["table:sn_customerservice_u_cmdb_ci_laptop"]
+  N60 -->|vendor| N6
+  N61["table:cmdb_ci_aws_account"]
+  N61 -->|change_control| N52
+  N61 -->|assignment_group| N52
+  N62["table:alm_asset"]
+  N61 -->|asset| N62
+  N63["table:cmdb_ci_app_server_tomcat_war"]
+  N63 -->|attested_by| N10
+  N64["table:cmdb_ci_appl_weblogic_lb"]
+  N64 -->|attested_by| N10
+  N65["table:cmdb_ci_appl_wmb"]
+  N65 -->|attested_by| N10
+  N66["table:cmdb_ci_appl_websphere_portal"]
+  N66 -->|attested_by| N10
+  N67["table:cmdb_ci_appl_hp_sm_kb"]
+  N67 -->|attested_by| N10
+  N68["table:cmdb_ci_appl_ora_http"]
+  N68 -->|attested_by| N10
+  N69["table:alm_transfer_order_line"]
+  N69 -->|transferred_for| N10
+  N70["table:sys_upgrade_history"]
+  N71["table:vtb_board"]
+  N70 -->|task_board| N71
+  N72["table:var__m_sys_hub_step_ext_input_d673770153c0121074adddeeff7b1260"]
+  N73["table:sc_cat_item"]
+  N72 -->|catalog_item| N73
+  N74["table:cmdb_ci_san_endpoint"]
+  N74 -->|assigned_to| N10
+  N74 -->|location| N23
+  N75["table:cmdb_ci_datapower_server"]
+  N76["table:cmdb_ci_server"]
+  N75 -->|dr_backup| N76
+  N77["table:cmdb_ci_snat_ip_pool"]
+  N77 -->|model_id| N13
+  N78["table:cmdb_ci_appl_sendmail"]
+  N78 -->|cost_center| N4
+  N78 -->|model_id| N13
+  N79["table:cmdb_ci_peripheral"]
+  N79 -->|change_control| N52

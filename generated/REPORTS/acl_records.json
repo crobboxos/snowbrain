@@ -1,0 +1,4979 @@
+[
+  {
+    "sys_id": "000024ee433431106c85385cdcb8f240",
+    "condition": "",
+    "name": "2b8f18ae433431106c85385cdcb8f2b2",
+    "active": "true",
+    "sys_scope": "5d66b0fbe770230003cd6188d2f6a976",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "00032e987721111029fc1646ba5a992d",
+    "condition": "",
+    "name": "sys_auth_mfa_context_mfa_factor_m2m",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00062626c322201032dd09c77d40dde9",
+    "condition": "",
+    "name": "sys_notification_actionable_content",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00071400775010100f7a72f9691061a2",
+    "condition": "",
+    "name": "sn_bm_client_recommendation_eval",
+    "active": "false",
+    "sys_scope": "3ad18693db92220004997878f0b8f516",
+    "type": "record",
+    "operation": "f6861c32c0a8016400647951e901525d",
+    "script": ""
+  },
+  {
+    "sys_id": "000a6acb774012104c781b699a5a993a",
+    "condition": "",
+    "name": "ecc_action",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb35",
+    "condition": "",
+    "name": "sc_req_item.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb3b",
+    "condition": "",
+    "name": "sc_ts_query.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb3c",
+    "condition": "",
+    "name": "sc_ts_query.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb46",
+    "condition": "",
+    "name": "sla_request.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb47",
+    "condition": "",
+    "name": "sla_request.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb48",
+    "condition": "",
+    "name": "sla_request",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb55",
+    "condition": "",
+    "name": "sp_css_include.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "000c0fd51b262300985ba64fad4bcb6d",
+    "condition": "",
+    "name": "sp_row.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "000e6770ff602210a684ffffffffff57",
+    "condition": "",
+    "name": "sys_m2m_email_report_attachment",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "answer = true;\nvar email = current.email.getRefRecord();\nif(email.isValidRecord()) { // << only perform operations on it if it's a valid record\n   answer = email.canDelete();\n}"
+  },
+  {
+    "sys_id": "000f512ea3e01210b5911aaaf31e61ba",
+    "condition": "",
+    "name": "sys_pd_activity_override",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "001059387fc512108e66144a5b866521",
+    "condition": "",
+    "name": "cmdb_rel_filter",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0010b57753a22110b87eddeeff7b126a",
+    "condition": "",
+    "name": "578dedff53622110b87eddeeff7b1247",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "0016f6a40f1020108c9c5019c4767ea7",
+    "condition": "",
+    "name": "sys_app_template_output_var.type",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00174d91b34203007a6de81816a8dce5",
+    "condition": "",
+    "name": "sp_search_facet_filter",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0017c28d9f90961091ee0fc9da0a1c42",
+    "condition": "",
+    "name": "agent_daily_schedule",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "00188ee2ff312110f76fc6ff9c3bf1b6",
+    "condition": "",
+    "name": "cmdb_data_classification",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "001a6ff267111200c4098c7942415a45",
+    "condition": "",
+    "name": "sys_ws_header_map",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "001a929a53362010af64ddeeff7b12f0",
+    "condition": "",
+    "name": "cmdb_policy_type_categories",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "001aa48187a323004caf66d107cb0bc7",
+    "condition": "",
+    "name": "asmt_m2m_category_user",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "if ((current.metric_category.metric_type+\"\") != \"\" && (current.metric_category.metric_type.survey_owners+\"\").indexOf(gs.getUserID()) !== -1)\n\tanswer = true;\nelse \n\tanswer = false;"
+  },
+  {
+    "sys_id": "001ab95b7c430110fa9bc95958e5fd2e",
+    "condition": "",
+    "name": "sn_apptmnt_booking_config_rule",
+    "active": "true",
+    "sys_scope": "d0f0c1303ba23200ce8a4d72f3efc4ac",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "001bdc73531220106c1dddeeff7b1206",
+    "condition": "",
+    "name": "sys_sg_screen_cache",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "001f5245c331210038bf506adfba8ff0",
+    "condition": "",
+    "name": "sys_report_source",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "//this is a function mimicking the backend logic applied to determine visibility of a table in the Table dropdown\nfunction isPermitted(table) { \n\tif (!table.startsWith(\"sys\")) \n\t\treturn true; \n\n\tvar permitted_sys_tables = GlideProperties.get(\"glide.ui.permitted_tables\"); \n\tif (!permitted_sys_tables) \n\t\treturn false; \n\n\tvar permitted_tables = permitted_sys_tables.split(\",\"); \n\tfor (var i = 0; i < permitted_tables.length; i++) { \n\t\tif (permitted_tables[i] == table) \n\t\t\treturn true; \n\n\t} \n\treturn false; \n} \n\nif(current.table != '') { \n    var tableDescriptor = GlideTableDescriptor.get(current.table); \n    answer = tableDescriptor && tableDescriptor.isValid() && tableDescriptor.canRead() && isPermitted(current.table) && new GlideReportChoiceList().hasReportRights(current.table); \n} else \n    answer = true;"
+  },
+  {
+    "sys_id": "0020703a73133300fdfc066a4cf6a75e",
+    "condition": "",
+    "name": "sys_api_response",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0021e07fa3b17110571967d1361e6129",
+    "condition": "",
+    "name": "sys_atf_step_performance_metrics",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0022b9bb37d72110f563825174924b9f",
+    "condition": "",
+    "name": "sn_cmdb_ws_class_icon",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "002a8fa9b73333002c50ff98ee11a93d",
+    "condition": "",
+    "name": "asset_content_audit",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "002b29a59f6412108647e8c40b0a1c1b",
+    "condition": "",
+    "name": "sys_security_obj_oper",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0031ca56c72010100a9b5d83c7c260b8",
+    "condition": "",
+    "name": "pwd_active_answer",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0033723777221010bf05d4082b1061c7",
+    "condition": "",
+    "name": "sys_service_endpoint_state",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "003653274305021071353d1e2ab8f2c0",
+    "condition": "",
+    "name": "sttrm_transition_condition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "function checkAccess() {\n\t// Check if parent has run out on us\n\tvar localParent = null;\n\ttry {\n\t\tlocalParent = parent;\n\t}\n\tcatch (e) {\n\t\tlocalParent = null;\n\t}\n\n\t// If it's not being created from a related list on sttrm_state_transition return false\n\tif (localParent && localParent.getTableName() !== \"sttrm_state_transition\")\n\t\treturn false;\n\n\t//Check that we either have a local parent (new/edit from list) or a state (on insert of record)\n\tif (!localParent && current.sttrm_state_transition.nil())\n\t\treturn false;\n\n\t// Populate the model to check, confirming correct structure\n\tvar model = null;\n\tif (localParent && localParent.from_state && localParent.from_state.sttrm_model) {\n\t\tmodel = localParent.from_state.sttrm_model.getRefRecord();\n\t}\n\telse if (current.sttrm_state_transition && current.sttrm_state_transition.from_state && current.sttrm_state_transition.from_state.sttrm_model) {\n\t\tmodel = current.sttrm_state_transition.from_state.sttrm_model.getRefRecord();\n\t}\n\n\t// If there's no model, no access\n\tif (!model)\n\t\treturn false;\n\n\treturn model.canWrite();\n}\n\ncheckAccess();"
+  },
+  {
+    "sys_id": "00373c77433002105947644c7ab8f204",
+    "condition": "",
+    "name": "sn_nowassist_diagn_execution_result_message",
+    "active": "true",
+    "sys_scope": "7b67ecf7437042105947644c7ab8f21b",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0038ae69930112102c4c098a548918db",
+    "condition": "",
+    "name": "cmdb_health_scorecard_service",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "003c052cc3673010eeef3928bb40dd49",
+    "condition": "",
+    "name": "sys_nowmq_subject_param",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "003f7960773c5210087379ba2c5a9939",
+    "condition": "",
+    "name": "svc_extension_variable",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0040343a73133300fdfc066a4cf6a7a6",
+    "condition": "",
+    "name": "sys_api_response_map",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00415c3fc341b0105a09f0ad9840ddad",
+    "condition": "",
+    "name": "sn_ex_sp_todo_config_detail",
+    "active": "true",
+    "sys_scope": "4249e63a28d54d61bb6fbf61fd86cccb",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00443c2e1b03011018ba748bd34bcb4a",
+    "condition": "",
+    "name": "ts_c_35_9",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0046d9f543301210bc26a9bb1cb8f259",
+    "condition": "",
+    "name": "sys_atf_modified_record_m2m",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0048bfcd43121210c4635de1e9b8f2c9",
+    "condition": "",
+    "name": "sysevent_queue_param_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00498a44934452104d0a423b92891832",
+    "condition": "",
+    "name": "awa_service_channel",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "004a15ca7f6012107972dbd44d86658b",
+    "condition": "",
+    "name": "oauth_entity_auth_scope_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "004c47dd1b262300985ba64fad4bcbd2",
+    "condition": "",
+    "name": "ts_c_6_0.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "004c87dd1b262300985ba64fad4bcb3e",
+    "condition": "",
+    "name": "ts_c_6_2",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "004f02d2bfd10100eae043fada073946",
+    "condition": "",
+    "name": "cert_follow_on_task.assignment_group",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "if (gs.hasRole('certification_admin') || (gs.hasRole('certification') && (gs.getUserID() == current.assigned_to.sys_id))) {\n\tanswer = true;\n}"
+  },
+  {
+    "sys_id": "00521076cb133300a54f78d5634c9ccb",
+    "condition": "",
+    "name": "gcf_staging",
+    "active": "true",
+    "sys_scope": "49d1d428e73233005765eef6c2f6a9eb",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "005419fea3c212105d51b85de31e615b",
+    "condition": "",
+    "name": "sn_diagram_builder_ui_action",
+    "active": "true",
+    "sys_scope": "1cf7ad026abf3abab12e761ddaa6e9df",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "005b516feb041210a8c99147c15228dd",
+    "condition": "",
+    "name": "sys_db_size_stats",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "005be9cb77976110085c067f5b5a995c",
+    "condition": "",
+    "name": "cmdb_multisource_deny_class",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "005d1e08234523002dd6cb0a56bf65cc",
+    "condition": "",
+    "name": "FSMManagerMapAJAX",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "client_callable_script_include",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "005d606bc7610110f376a0736cc2607b",
+    "condition": "",
+    "name": "par_dashboard_widget",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "var gr = new GlideRecord('par_dashboard_canvas');\ngr.get(current.getValue('canvas'));\nanswer = gr.isValid() && gr.canWrite(); "
+  },
+  {
+    "sys_id": "005f08beff331210f8aaffffffffff1b",
+    "condition": "",
+    "name": "sys_rest_csrf_allow_list",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "005fd32eeb9891100cd8d3e647522803",
+    "condition": "",
+    "name": "sn_aisearch_global_migration_job",
+    "active": "true",
+    "sys_scope": "3c467b5f0bf130109e0fa4e6e9c4c946",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00615b51c7511010bfbaf89f51c26057",
+    "condition": "",
+    "name": "sys_glide_object",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0061e2bd43e61210e777c91766b8f26d",
+    "condition": "",
+    "name": "sku_metadata",
+    "active": "true",
+    "sys_scope": "bcadabf277f311109c62f5f3cb5a992a",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0067e411df020100cd7da5f59bf26358",
+    "condition": "",
+    "name": "asmt_assessment_instance",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "answer = (new AssessmentUtils()).hasAssessmentRoles(current.metric_type.roles);"
+  },
+  {
+    "sys_id": "006a46b19f012200d5f9b3e2957fcf23",
+    "condition": "",
+    "name": "chat_queue_entry.state",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "006a6a8c7752211041758f368c5a99a7",
+    "condition": "",
+    "name": "sys_upgrade_app_version_history",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "006af3de5b723110d9a5ce1a8581c784",
+    "condition": "",
+    "name": "be87b71e5b723110d9a5ce1a8581c775",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "006d9e84a330121045bd9caef31e6150",
+    "condition": "",
+    "name": "sys_attachment_soft_deleted",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "006f923b373d3110878cafdd84924b33",
+    "condition": "",
+    "name": "sn_wn_content",
+    "active": "true",
+    "sys_scope": "cb08e377eb9071106fb3951ff15228b8",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0070b1a57793301039ac088b3a10615f",
+    "condition": "",
+    "name": "c92f61657793301039ac088b3a106154",
+    "active": "true",
+    "sys_scope": "c2a7835187123010a4a2c077f6cb0bc0",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "00739cb4df332100a9e78b6c3df263fc",
+    "condition": "",
+    "name": "ast_contract.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "var gr = new GlideRecord('cmdb_contract_product_model');\ngr.get(\"name\", \"subscription\");\nanswer = gs.hasRole('contract_manager') || (current.contract_model == gr.sys_id);"
+  },
+  {
+    "sys_id": "0074a4fb5310a11088d8ddeeff7b12fa",
+    "condition": "",
+    "name": "chg_overview_container",
+    "active": "true",
+    "sys_scope": "bccbdbb023213010785ddc1756bf6579",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0075f3a4ff702210f8d3ffffffffff42",
+    "condition": "",
+    "name": "svc_baseline_exclusion",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0076dd487f220210ee61def20d866522",
+    "condition": "",
+    "name": "sys_gen_ai_control_setting.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00784d321baba380ea17dd3fbd4bcbed",
+    "condition": "",
+    "name": "ts_c_24_2.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "007bad04ff3002002e6bffffffffff24",
+    "condition": "",
+    "name": "cmdb_ci_service_discovered",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "007fe6daeb2033000c2c0c505206fe28",
+    "condition": "",
+    "name": "quickactions_workspace_action",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "008022f97f301210cc4835c59c866522",
+    "condition": "",
+    "name": "cert_element",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0084607477a2301079ccdc3f58106158",
+    "condition": "",
+    "name": "now.preview.form.*",
+    "active": "true",
+    "sys_scope": "f53f19bac362fa22ca2e93692d32f18f",
+    "type": "b9eb8a1b873303002941b53046cb1234",
+    "operation": "read",
+    "script": "\n      answer = gs.hasRightsTo(\"ui/configure.personalize_form/write\", null);"
+  },
+  {
+    "sys_id": "0084d7eaff6b121065e6ffffffffff18",
+    "condition": "",
+    "name": "sys_sg_popup",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "008926639304d2104d0a423b928918f4",
+    "condition": "",
+    "name": "awa_reject_reason",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "008a4bedff700200b18affffffffffa6",
+    "condition": "",
+    "name": "std_change_proposal",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "008bb5dfff333010b0fde1602946bd82",
+    "condition": "customer=false^EQ",
+    "name": "sys_page_theme.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "008d582dff383210a3aeffffffffff00",
+    "condition": "",
+    "name": "sys_gen_ai_provider_preference",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "009034c67fac5610f38254350d8665af",
+    "condition": "",
+    "name": "sys_logger_configuration",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "009111565311211053a6ddeeff7b12d6",
+    "condition": "",
+    "name": "sn_vsc_changed_hardening_settings",
+    "active": "true",
+    "sys_scope": "a51d46e3f2014110366b10017c5ba675",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0092e448ff5012106836ffffffffff6a",
+    "condition": "",
+    "name": "m2m_sys_nlu_intent_entity",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0094a7263b021000dada82c09ccf3d38",
+    "condition": "",
+    "name": "var_dictionary.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "009544b9471220009343706eecde27a5",
+    "condition": "",
+    "name": "cmdb_m2m_model_compatibility.model_1",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0096a7e95b2b011048501e991e81c74f",
+    "condition": "",
+    "name": "ip_address_range",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0099d669d48ea210f87704adede80e67",
+    "condition": "",
+    "name": "std_ticket_action_input",
+    "active": "true",
+    "sys_scope": "c9f1df5787f50010e0ef0cf888cb0b2c",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "009a89b07fc512108e66144a5b8665e8",
+    "condition": "",
+    "name": "cmdb_ci_state_management_task_to_ci",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "009a89b07fc512108e66144a5b8665f9",
+    "condition": "",
+    "name": "cmdb_data_management_policy",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "009addc0830312108daa12a7522bc03a",
+    "condition": "",
+    "name": "dms_classification",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "009afb597f310210864d8b2cac8665e7",
+    "condition": "",
+    "name": "m2m_user_consent_info.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00a070207f202200068712f44efa912a",
+    "condition": "",
+    "name": "wm_map_filters_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "answer = getConfigCreateAnswer();\n\nfunction getConfigCreateAnswer() {\n\tvar gr = new GlideRecord(\"wm_map_filters_config\");\n\tgr.addQuery(\"user\", gs.getUserID());\n\tgr.query();\n\tif (gr.next()) {\n\t   return false;\n\t} \n\treturn true;\n}\n"
+  },
+  {
+    "sys_id": "00a26b38cbb23200a30bb895634c9c47",
+    "condition": "",
+    "name": "sys_flow_context",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = (new FlowContextViewAccessChecker()).canRead(current);"
+  },
+  {
+    "sys_id": "00a41feaff6b121065e6fffffffffffc",
+    "condition": "",
+    "name": "sys_sg_function",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00a50f287f3322002dedbb87adfa91de",
+    "condition": "",
+    "name": "ecc_agent_issue",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00a5434dfb742210f9d0f3acaeefdc0a",
+    "condition": "",
+    "name": "ts_c_45_0.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00a55f5b0b1013000e83c71437673a52",
+    "condition": "",
+    "name": "sys_cs_vendor_client_adapter_configuration",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00a98c265b031010e91728582d81c705",
+    "condition": "",
+    "name": "sys_search_filter",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00aae87193af0210b633a3cd91891810",
+    "condition": "",
+    "name": "sn_vsc_mi_user_metrics",
+    "active": "true",
+    "sys_scope": "a51d46e3f2014110366b10017c5ba675",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00b07aabc72210104c1bf9f91dc260a6",
+    "condition": "field_set.module.module_id=fsm^EQ",
+    "name": "app_cmn_field_set_item",
+    "active": "true",
+    "sys_scope": "f1ad77c7671210109743b1bb27415acd",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00b2565c477002007f47563dbb9a71a2",
+    "condition": "",
+    "name": "kb_social_qa_view",
+    "active": "true",
+    "sys_scope": "11722b01473231007f47563dbb9a7154",
+    "type": "record",
+    "operation": "delete",
+    "script": "answer=false"
+  },
+  {
+    "sys_id": "00b4132eff6b121065e6ffffffffffd5",
+    "condition": "",
+    "name": "sys_sg_calendar_screen",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00b6f1ca43b01210d3e933674bb8f267",
+    "condition": "",
+    "name": "ws_security_profiles_outbound",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00b7b542eb13111090ec54c3b15228dd",
+    "condition": "",
+    "name": "usageanalytics_count",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "00b8d82c770221107d731dd91e5a9999",
+    "condition": "",
+    "name": "subscription_detail",
+    "active": "true",
+    "sys_scope": "bcadabf277f311109c62f5f3cb5a992a",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00b93b8f7fa41210cc4835c59c8665ba",
+    "condition": "",
+    "name": "sn_cmdb_ws_imp_action_card_config",
+    "active": "false",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00b946737f241210640c144a5b8665db",
+    "condition": "",
+    "name": "sn_cmdb_ws_nlq_excluded_table",
+    "active": "false",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00b9d5b49312120042cf530b547ffbbe",
+    "condition": "",
+    "name": "sc_cat_item_guide_items",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "new SNCCatalogUtil().canRead(current.guide,current.isNewRecord());"
+  },
+  {
+    "sys_id": "00bc8f84c7453110967a34c91dc26011",
+    "condition": "",
+    "name": "sys_gen_ai_feature_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00bd0d29c7411010bfbaf89f51c2601e",
+    "condition": "model=ca57d12e730333004a905ee515f6a7b2^ORmodel=61cd5e20c30210109b1204186e40ddb0^ORmodel=16f2aef6c32110109b1204186e40dd7f^EQ",
+    "name": "sys_declarative_action_model_field",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00bdcea2eb9230003623666cd206fe2b",
+    "condition": "",
+    "name": "sc_cat_item_company_mtom",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "gs.hasRole('catalog_admin') || new SNCCatalogUtil().canDelete(current.sc_cat_item) ;"
+  },
+  {
+    "sys_id": "00c119f9432fc2107aec2cc4bab8f2f1",
+    "condition": "",
+    "name": "sys_hub_flow_designer_co_template",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "00c2e8f39f3302001526317f842e7028",
+    "condition": "",
+    "name": "license_has_user_set",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00c52b2243611110bbc664746ab8f27a",
+    "condition": "",
+    "name": "sys_declarative_action_payload_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write"
+  },
+  {
+    "sys_id": "00c55b3fe969a550f8772e47a4f52c64",
+    "condition": "",
+    "name": "sn_employee_overview_section_field",
+    "active": "true",
+    "sys_scope": "1e95bac2738f001001b566b90ff6a7cd",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "00cc021ab7699110e62a8e55ce11a95a",
+    "condition": "",
+    "name": "SMServiceByTagsUtilsAjax",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "client_callable_script_include",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "00ce4d2eb70320104c75ccf78e11a921",
+    "condition": "",
+    "name": "sys_run_level",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00cf4f4deb1211003623666cd206fed2",
+    "condition": "",
+    "name": "sc_cat_item.workflow",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "JSUtil.nil(current.sc_ic_item_staging)"
+  },
+  {
+    "sys_id": "00cfc8e953632110b87eddeeff7b1255",
+    "condition": "category=important_action^EQ",
+    "name": "sn_cmdb_ws_imp_action_card_config.filter_conditions",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00d8281b434a1210dff8c4d05fb8f24a",
+    "condition": "",
+    "name": "pa_indicator_aggregate_excl",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00d8281b434a1210dff8c4d05fb8f251",
+    "condition": "",
+    "name": "pa_indicator_aggregate_excl",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00dca95a5b101210b0d51e991e81c775",
+    "condition": "",
+    "name": "cmdb_ip_service_ci",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00de7d94736b230075b6e6e24ff6a7c6",
+    "condition": "",
+    "name": "ua_ih_usage",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00df2becff3722103ad8ffffffffffeb",
+    "condition": "",
+    "name": "core_company",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00e253f273b23010dc50c3ed8ff6a7cf",
+    "condition": "",
+    "name": "cmdb_dynamic_reconciliation_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00e4d8930f500010c5f2fc91ff767e1e",
+    "condition": "",
+    "name": "cmdb_ire_data_source_rule",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "00e6ec409f8533000f51b7bda42e7079",
+    "condition": "",
+    "name": "sm_flapper_strategy_data.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "00eaa024530aa210f27eddeeff7b12a6",
+    "condition": "",
+    "name": "sn_customerservice_appointment",
+    "active": "true",
+    "sys_scope": "51d811fad7223100b7490ee60e61034f",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "00ebd5ba532600107d70ddeeff7b122a",
+    "condition": "",
+    "name": "DocumentTaskAjax",
+    "active": "true",
+    "sys_scope": "6a9ea833b763330088d9bc78ee11a88q",
+    "type": "client_callable_script_include",
+    "operation": "execute",
+    "script": "var docTaskGr = new GlideRecord(\"sn_doc_task\");\ndocTaskGr.addQuery(\"assigned_to\", gs.getUserID());\ndocTaskGr.setLimit(1);\ndocTaskGr.query();\nanswer = docTaskGr.hasNext();"
+  },
+  {
+    "sys_id": "00ecb6b143901210249aa574a9b8f2b5",
+    "condition": "",
+    "name": "sysevent_event_queue_map",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00ef919da3531210984b9caef31e61ff",
+    "condition": "",
+    "name": "sys_attachment_attribute",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "answer = getAttributeCreateAnswer();\n\nfunction getAttributeCreateAnswer() {\n    var gr = new GlideRecord('sys_attachment');\n    if (!gr.get(current.sys_attachment))\n        return false;\n\n\tif(gs.hasRole('maint')) return true;\n    return current.sys_attachment.getRefRecord().canCreate();\n}\n"
+  },
+  {
+    "sys_id": "00f12e057f203200c57212f44efa914b",
+    "condition": "",
+    "name": "wm_questionnaire.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00f338e01b710210a4a92029274bcbf5",
+    "condition": "",
+    "name": "ts_c_42_6.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00f4240cff5012106836ffffffffff2e",
+    "condition": "",
+    "name": "sys_nlu_intent",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00f433cc77432110ee0d0cc2fa5a9909",
+    "condition": "",
+    "name": "sn_cmdb_ws_feature_category_runtime_attribute",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "00f9a8f753661110486fddeeff7b1222",
+    "condition": "",
+    "name": "sys_notification_next_experience_content.use_action",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "00fcc54c534f0010b471ddeeff7b127b",
+    "condition": "",
+    "name": "sys_call_chain",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01060af91bef64104cd3a798bd4bcb08",
+    "condition": "",
+    "name": "ts_c_34_8",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0106c6f91bef64104cd3a798bd4bcbff",
+    "condition": "",
+    "name": "ts_c_34_8.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "010822261b8c35d0a4a92029274bcb0c",
+    "condition": "",
+    "name": "sc_request.comments",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcb51",
+    "condition": "",
+    "name": "sys_ui_module.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcb52",
+    "condition": "",
+    "name": "sys_ui_module.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcbbe",
+    "condition": "",
+    "name": "task.approval_set",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcbbf",
+    "condition": "",
+    "name": "task.approval_set",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcbc0",
+    "condition": "",
+    "name": "task.description",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcbd7",
+    "condition": "",
+    "name": "text_search.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcbd8",
+    "condition": "",
+    "name": "text_search.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "010c8fd51b262300985ba64fad4bcbe6",
+    "condition": "",
+    "name": "ts_query_kb.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "010cc7a8ebd0010045e1a5115206fe60",
+    "condition": "",
+    "name": "pwd_question",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "011099387fc512108e66144a5b866591",
+    "condition": "",
+    "name": "cmdb_rel_group_type",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "011099387fc512108e66144a5b8665d4",
+    "condition": "",
+    "name": "cmdb_rel_team",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0116ae034350121037ca0c173bb8f240",
+    "condition": "",
+    "name": "sys_pdf_generation_status.context",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0118378eff403210dda4ffffffffffb9",
+    "condition": "",
+    "name": "sys_gen_ai_text_cache",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "011bb53ec3713010fe394f877840ddae",
+    "condition": "",
+    "name": "sys_cs_collab_message_reaction",
+    "active": "true",
+    "sys_scope": "53b1b0e79761011018b2fa98c253afcc",
+    "type": "record",
+    "operation": "delete",
+    "script": "answer = gs.getUserName().equals(current.member.member.user_document.user_name);"
+  },
+  {
+    "sys_id": "011d991aff786210d696ffffffffff51",
+    "condition": "",
+    "name": "sn_actsub_source_context_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01214ebbd7213200d24b00285e61031c",
+    "condition": "",
+    "name": "dynamic_schedule_task_filter",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0124b4a41b710210a4a92029274bcb8b",
+    "condition": "",
+    "name": "ts_c_43_3",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0126962b7ff3121015b317b81d8665b3",
+    "condition": "",
+    "name": "sn_dt_translation_cache",
+    "active": "true",
+    "sys_scope": "7d7635917313230052317a5454f6a76b",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01273099b7731300616ceb67ee11a900",
+    "condition": "",
+    "name": "jwt_provider.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "012888ec9f13220090c2bb0e832e7075",
+    "condition": "",
+    "name": "pa_scores.indicator",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "54f535270a0a0b8c007c67009ab2bdc0",
+    "script": "var answer = false;"
+  },
+  {
+    "sys_id": "0128ec63eb2301103c43d6e8b5522814",
+    "condition": "",
+    "name": "sys_ux_client_script_include",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "012942110f130000b12e6903cfe0125b",
+    "condition": "",
+    "name": "sys_ui_annotation",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "gs.hasRole(\"form_admin\");"
+  },
+  {
+    "sys_id": "01324be2eb9230003623666cd206fec5",
+    "condition": "",
+    "name": "sc_homepage_renderer",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0136649c378e1210d1224ef1a4924bc0",
+    "condition": "",
+    "name": "sys_uxa_stats",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0136874b43701210bc26a9bb1cb8f2bc",
+    "condition": "",
+    "name": "scan_check_suite",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "013822a9930112102c4c098a548918d6",
+    "condition": "",
+    "name": "cmdb_ire_partial_payloads_index",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "013862a9930112102c4c098a54891838",
+    "condition": "",
+    "name": "cmdb_metadata_containment",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "013ae49bff7722103670ffffffffff10",
+    "condition": "",
+    "name": "knowledge_based_question_service_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "013bb80577330210497192f08e5a998b",
+    "condition": "",
+    "name": "sys_web_service_input",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "013c92d577ef51100801255a1e5a9940",
+    "condition": "",
+    "name": "awa_queue_metrics",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0140660743152110911baf56aab8f2d8",
+    "condition": "",
+    "name": "sn_customerservice_responsibility_access_config.applies_to_relationship",
+    "active": "true",
+    "sys_scope": "51d811fad7223100b7490ee60e61034f",
+    "type": "record",
+    "operation": "54f535270a0a0b8c007c67009ab2bdc0",
+    "script": ""
+  },
+  {
+    "sys_id": "0140c075934012104de7335b44891817",
+    "condition": "",
+    "name": "sys_token_auth_parameter",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "014158fa7f00221024de08776d86658d",
+    "condition": "",
+    "name": "ua_shared_service",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01454c93671210109743b1bb27415add",
+    "condition": "",
+    "name": "app_cmn_filter_config",
+    "active": "true",
+    "sys_scope": "f1ad77c7671210109743b1bb27415acd",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0146145c07122110fda37a76fed300fc",
+    "condition": "",
+    "name": "sn_instance_clone_request",
+    "active": "true",
+    "sys_scope": "31774a2953839110a6f8ddeeff7b12cb",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01461ce7db3b030012599aefe0b8f50c",
+    "condition": "",
+    "name": "attachment_scan_history",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0148e2a9930112102c4c098a54891804",
+    "condition": "",
+    "name": "cmdb_multisource_recomp_task_ci",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0148e2a9930112102c4c098a54891856",
+    "condition": "",
+    "name": "cmdb_reconciliation_definition_mapping",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "014ba7b49310d210a1b29bf56489188b",
+    "condition": "",
+    "name": "account_address_relationship",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0150d3991b097340985ba64fad4bcb05",
+    "condition": "",
+    "name": "x_hpmms_hpdaas_apm_case_state_mappings",
+    "active": "true",
+    "sys_scope": "1281fe89db169f00c3d6f9361d961925",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "015139379fb10210204aa8530b0a1c46",
+    "condition": "",
+    "name": "basic_retry_conditions",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0152e76c83c312108daa12a7522bc0ce",
+    "condition": "",
+    "name": "dms_document_revision",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01539027c743001093814865cb976396",
+    "condition": "",
+    "name": "sn_actsub_m2m_context_subobject",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "answer = current.activity_context.canRead() && current.subobject.canRead();"
+  },
+  {
+    "sys_id": "015885be1bef2780985ba64fad4bcbd3",
+    "condition": "",
+    "name": "sys_user_group.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "015c490b431b52102677642b75b8f21e",
+    "condition": "",
+    "name": "sys_scheduler_job_history_node",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "015eed74eb2f0110da1861c59c5228aa",
+    "condition": "",
+    "name": "sn_ace_content_block_context",
+    "active": "true",
+    "sys_scope": "5df6db91ebe4011090fa99602a52289e",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01609d34ffd13010635f056d793bf11e",
+    "condition": "",
+    "name": "sys_cs_notification_delivery_channel",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0164db9437703000158bbfc8bcbe5d13",
+    "condition": "",
+    "name": "alm_fixed_assets",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01699cdcc33031105e1a6333d840dd07",
+    "condition": "",
+    "name": "sys_blocked_email_address",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0169c48993011200b42e3b5b357ffb75",
+    "condition": "",
+    "name": "sa_context_menu",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "016a302b4fa12210c98b8a4a91ce0b26",
+    "condition": "",
+    "name": "promin_highlights_analysis_question",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "answer = gs.hasRole('maint');"
+  },
+  {
+    "sys_id": "016a956d49945210f877085c5dc69d76",
+    "condition": "",
+    "name": "sys_aw_form_default_section",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "016cb6b153b175104410ddeeff7b1253",
+    "condition": "",
+    "name": "sn_ns_skill_config_ui",
+    "active": "true",
+    "sys_scope": "7c395aaa53003110453cddeeff7b123c",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "016cc7111b662300985ba64fad4bcb63",
+    "condition": "",
+    "name": "ts_c_10_0.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "016cc7111b662300985ba64fad4bcba3",
+    "condition": "",
+    "name": "ts_c_10_2.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01700bd577e21110fedf8bb7cb5a9908",
+    "condition": "",
+    "name": "sn_employee_tab",
+    "active": "true",
+    "sys_scope": "1e95bac2738f001001b566b90ff6a7cd",
+    "type": "record",
+    "operation": "delete",
+    "script": "var oobTabs = ep_Constants.OOB_PROFILE_TAB_IDS;\nanswer = oobTabs.indexOf(current.getValue(\"sys_id\")) === -1;"
+  },
+  {
+    "sys_id": "01713abc77623010715517e91e5a996a",
+    "condition": "",
+    "name": "wm_task_scheduling_history",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "017371e87f045210cc0b38b8ec866502",
+    "condition": "",
+    "name": "ecc_queue_usage_analytics",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01777f8d43121210c4635de1e9b8f21c",
+    "condition": "",
+    "name": "sysevent_queue_param_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "017d5842d7210200bef20ee60e6103f6",
+    "condition": "",
+    "name": "ast_contract_list",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "ui_page",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "017e247437f03000158bbfc8bcbe5dea",
+    "condition": "",
+    "name": "pc_product_cat_item.product_id",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0181b9287f045210cc0b38b8ec8665fb",
+    "condition": "",
+    "name": "mid_k8s_deployment_hpav2_behavior_policies",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0186a95e73e054107d98438e7bf6a744",
+    "condition": "",
+    "name": "pwd_history",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "018bc805935012104de7335b4489180c",
+    "condition": "",
+    "name": "sys_api_access_scope",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "018cdb1b076320105fca5d1aead30035",
+    "condition": "",
+    "name": "50855f17076320105fca5d1aead30036",
+    "active": "true",
+    "sys_scope": "ead9fb5f8b27a051aa71b35163745b82",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "018e090beb0220105de665fcc85228e2",
+    "condition": "primary_intentISEMPTY^EQ",
+    "name": "sys_nlu_intent.name",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "018ea4d1d723020058c92cf65e610370",
+    "condition": "",
+    "name": "central_dispatch_config.task_table",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "answer=true;"
+  },
+  {
+    "sys_id": "018ee562ff331010bb24108e793bf10d",
+    "condition": "",
+    "name": "ux_framework_builder_api_experiences",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "REST_Endpoint",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "018efe3bed2a4366a88a2f74ba6f04b7",
+    "condition": "",
+    "name": "clone_instance",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "018fa6825b1210103a9b51d11581c7fb",
+    "condition": "",
+    "name": "sys_destination_preference",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01914903870331004ebe19fa84e3ec53",
+    "condition": "",
+    "name": "sys_ui_hp_publisher",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "019214d6a3281210b5911aaaf31e61d0",
+    "condition": "",
+    "name": "sys_pd_activity_type",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01926ee4a3713110db40cf40141e61a4",
+    "condition": "",
+    "name": "sys_remote_scoped_plugin",
+    "active": "true",
+    "sys_scope": "781f36a96fef21005be8883e6b3ee43d",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "019402e07f3452100c5dffd73c866528",
+    "condition": "",
+    "name": "catalog_category_request",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01942ad1732023004a905ee515f6a7b6",
+    "condition": "active=false^EQ",
+    "name": "awa_service_channel.assignment_group_field",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0194f9639f43121057bda426da0a1c1f",
+    "condition": "",
+    "name": "sys_cs_message_tab_detail.last_read_message_id",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01955406472032107a684bdb736d43a2",
+    "condition": "",
+    "name": "sys_pg_table_stats_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0196b6bf9fc49e1003ea0a7e7a0a1c59",
+    "condition": "",
+    "name": "sn_wn_app_config_content_m2m",
+    "active": "true",
+    "sys_scope": "cb08e377eb9071106fb3951ff15228b8",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01970b21df203100dca6a5f59bf26363",
+    "condition": "callerDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORopened_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ",
+    "name": "sm_order",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0197aaaa53011110dd8eddeeff7b12fa",
+    "condition": "",
+    "name": "sn_vsc_scan_comparisons",
+    "active": "true",
+    "sys_scope": "a51d46e3f2014110366b10017c5ba675",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0198390867d4030023c82e08f585ef1c",
+    "condition": "",
+    "name": "sp_page_title_variable",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "019a0db07fc512108e66144a5b866550",
+    "condition": "",
+    "name": "cmdb_task_to_archive_chunk",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "019d160693e012104de7335b4489189b",
+    "condition": "",
+    "name": "oauth_jwt_claims",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01a130000fe110108d2e0e52ff767eaf",
+    "condition": "",
+    "name": "sys_import_set",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01a193991b262300985ba64fad4bcb04",
+    "condition": "",
+    "name": "ts_c_19_7",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01a45feaff6b121065e6ffffffffffe9",
+    "condition": "",
+    "name": "sys_sg_time_span_item_stream",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01a608446f31211026b95d3a945b36ee",
+    "condition": "",
+    "name": "interaction_relationship_policy",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01a650661b31301045d74195d34bcb28",
+    "condition": "",
+    "name": "nlq_synonym.table",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01a955ecb700001024280f98ee11a9fc",
+    "condition": "",
+    "name": "ml_autotrain_solution",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01aea14a0b311300eed8635663673acc",
+    "condition": "",
+    "name": "sys_guided_tour_analytics_event",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01b15bd91b262300985ba64fad4bcb58",
+    "condition": "",
+    "name": "ts_c_21_2",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01b15bd91b262300985ba64fad4bcb9e",
+    "condition": "",
+    "name": "ts_c_21_3",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01b483a0732300109234c346c4f6a711",
+    "condition": "",
+    "name": "sn_customercentral_cust_info_config",
+    "active": "true",
+    "sys_scope": "7a9ab70373830010e37d71ef64f6a78b",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01b4940a77230210bf3589b28a5a9969",
+    "condition": "",
+    "name": "promin_field_recommendation",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01b80f92c7121010159ca1e603c2600e",
+    "condition": "",
+    "name": "sc_template_detail",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read"
+  },
+  {
+    "sys_id": "01b85aa153403300d0baddeeff7b1222",
+    "condition": "",
+    "name": "ts_configuration",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01b9327c0fd03300c79ef140ff767eea",
+    "condition": "",
+    "name": "sys_openapi_request",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01b933cf7fa41210cc4835c59c866515",
+    "condition": "",
+    "name": "sn_cmdb_ws_service_graph_connector",
+    "active": "false",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01b9ff8f7fa41210cc4835c59c8665b2",
+    "condition": "",
+    "name": "sn_cmdb_ws_feature_category_runtime_attribute",
+    "active": "false",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01b9ff8f7fa41210cc4835c59c8665d3",
+    "condition": "",
+    "name": "sn_cmdb_ws_partial_payload_item",
+    "active": "false",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01b9ff8f7fa41210cc4835c59c8665f4",
+    "condition": "",
+    "name": "sn_cmdb_ws_quick_links",
+    "active": "false",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01bb0cb0eb2201006a668c505206fe49",
+    "condition": "",
+    "name": "pwd_identification_type",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01bd02e2eb9230003623666cd206fee5",
+    "condition": "",
+    "name": "sc_cat_item_dt_ext_mtom",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01c06deac7a0030089413952f09763aa",
+    "condition": "",
+    "name": "sn_dependentclient_application",
+    "active": "true",
+    "sys_scope": "f1d83d71c700030089413952f0976370",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01c1761187721110adf7083f37cb0b23",
+    "condition": "",
+    "name": "sn_vsc_export_setting",
+    "active": "true",
+    "sys_scope": "a51d46e3f2014110366b10017c5ba675",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01c31aabff10221086faffffffffff71",
+    "condition": "",
+    "name": "ATFTracingHelperAjax",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "client_callable_script_include",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "01c3c49677df1110814d99f69c5a993e",
+    "condition": "",
+    "name": "clm_m2m_contract_asset",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01c3e0037f42310036bfdd620efa915d",
+    "condition": "",
+    "name": "sys_export_set",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01c59a2e838b52108daa12a7522bc0ba",
+    "condition": "",
+    "name": "m2m_document_user_approver",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01c5ccff77003010dd0359033f5a995e",
+    "condition": "",
+    "name": "sys_ux_route_permission",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01c796430b63320036e62c7885673ac4",
+    "condition": "",
+    "name": "sn_templated_snip_note_template",
+    "active": "true",
+    "sys_scope": "2d3597c80b67320036e62c7885673a43",
+    "type": "record",
+    "operation": "write",
+    "script": "// \tCheck write access for HR response template\n\nvar table = current.table.toString();\nvar isHRTable = table.startsWith('sn_hr');\n\nanswer = isHRTable? new sn_templated_snip.NoteTemplateCheck().canAccessHRResponseTemplate(table, 'write') : true;"
+  },
+  {
+    "sys_id": "01ca041be9900010fa9b6dba53a930b7",
+    "condition": "",
+    "name": "SAMAjaxUtil",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "client_callable_script_include",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "01caec015343101034d1ddeeff7b12d1",
+    "condition": "",
+    "name": "chg_model_condition_type",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01cd83cbeb361110da1861c59c5228d6",
+    "condition": "",
+    "name": "sys_cs_ca_message",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01cf36cb87c0130084aca571d5cb0b6a",
+    "condition": "",
+    "name": "sys_aw_master_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01d322b39f7442104ec676308a0a1ca8",
+    "condition": "state=published^EQ",
+    "name": "sn_rtbi_report_template.name",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01d39a545be50210b0d51e991e81c7c6",
+    "condition": "",
+    "name": "ip_service_affinity",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01d79003431721107f9fbbfd6bb8f2dd",
+    "condition": "",
+    "name": "sn_bm_client_region",
+    "active": "true",
+    "sys_scope": "3ad18693db92220004997878f0b8f516",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01d97d6453af130005ecddeeff7b1221",
+    "condition": "",
+    "name": "cxs_search_result_fields",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01dd13757f131010d185f3c26f2a0ca0",
+    "condition": "",
+    "name": "transaction_call_chain",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01dd974a43301210bc26a9bb1cb8f2a7",
+    "condition": "",
+    "name": "sys_atf_step_performance_metrics",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01de1b599f90120066dabde8132e7089",
+    "condition": "",
+    "name": "gsw_status_of_content",
+    "active": "true",
+    "sys_scope": "5f4ef4ed9f401200b18a7feea57fcfbe",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = new GuidedSetupUtilSNC().isAuditReadAllowed();"
+  },
+  {
+    "sys_id": "01de8d41d7101200bd4a4ebfae6103af",
+    "condition": "",
+    "name": "sys_report_map_condition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01e059ca073201105fca5d1aead30007",
+    "condition": "",
+    "name": "sys_homepage_destination_rule.name",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01e4d34c932f0210d08813473289186e",
+    "condition": "",
+    "name": "now.security-center-configuration.*",
+    "active": "true",
+    "sys_scope": "a51d46e3f2014110366b10017c5ba675",
+    "type": "b9eb8a1b873303002941b53046cb1234",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01e6ee309c802110f877e26fc0971081",
+    "condition": "",
+    "name": "sn_ex_sp_favorite_content_config",
+    "active": "true",
+    "sys_scope": "4249e63a28d54d61bb6fbf61fd86cccb",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01e8bf65648d5050f8772a8167d4cb95",
+    "condition": "",
+    "name": "sn_actsub_activity_type.target_field",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "01eda069932312107b4e572184891829",
+    "condition": "",
+    "name": "experiment.opt_out",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01f32047731313009ecc234ffff6a7cd",
+    "condition": "",
+    "name": "chat_survey.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "01f6d1d3b76022109da9ff43ae11a9b9",
+    "condition": "",
+    "name": "cmdb_ip_address_dns_name",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01f6d1d3b76022109da9ff43ae11a9fc",
+    "condition": "",
+    "name": "cmdb_lb_vlan_interface",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "01f7ea80bf201100b96dac808c07395a",
+    "condition": "",
+    "name": "pa_m2m_indicator_tags",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "new SNC.PADomainUtils().isWriteable(\"pa_m2m_indicator_tags\", current.sys_id);"
+  },
+  {
+    "sys_id": "01fa0fab7721111007737e567a5a9973",
+    "condition": "",
+    "name": "sys_recipient_user_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "01fb0bd51b262300985ba64fad4bcb15",
+    "condition": "",
+    "name": "application_diagnostic.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01fb0bd51b262300985ba64fad4bcb27",
+    "condition": "",
+    "name": "clone_data_exclude.*",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "01ffb48f4321311010515042e9b8f299",
+    "condition": "",
+    "name": "sys_analytics_trigger_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": " answer = true; if(current.sys_class_name == 'sys_analytics_trigger_definition') { if(!gs.hasRole('maint')) answer = false; } "
+  },
+  {
+    "sys_id": "0201478543301210bc26a9bb1cb8f23d",
+    "condition": "",
+    "name": "sys_atf_whitelist",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0203d6a4d7612100b96d45a3ce610331",
+    "condition": "",
+    "name": "sys_report_color",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "020591f3875033001afc0a1d36cb0b35",
+    "condition": "",
+    "name": "sys_openapi_parameter_map",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0207268b73003300fdbd04fbc4f6a76e",
+    "condition": "",
+    "name": "multi_factor_criteria",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "answer=false;"
+  },
+  {
+    "sys_id": "020752b10f5a10105bc5e7b1d4767ee3",
+    "condition": "",
+    "name": "sn_customerservice_case.state",
+    "active": "true",
+    "sys_scope": "51d811fad7223100b7490ee60e61034f",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0208c97a1bef2780985ba64fad4bcb11",
+    "condition": "",
+    "name": "sn_customerservice_case.resolved_by",
+    "active": "true",
+    "sys_scope": "51d811fad7223100b7490ee60e61034f",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "020925ca0b751300eed8635663673aaa",
+    "condition": "",
+    "name": "sys_guided_tour_analytics",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0209eb4f777121107d731dd91e5a999f",
+    "condition": "",
+    "name": "subscription_entitlement_audit_log",
+    "active": "true",
+    "sys_scope": "bcadabf277f311109c62f5f3cb5a992a",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "020c983a7f12121048dd0840ac8665b9",
+    "condition": "",
+    "name": "sys_audit_retention",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0214bc07537121106b38ddeeff7b1262",
+    "condition": "",
+    "name": "sys_generative_ai_capability_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0216928773870010e37d71ef64f6a7ae",
+    "condition": "",
+    "name": "sn_actsub_activitytype_template",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "021a0f3953dc1610c685ddeeff7b1236",
+    "condition": "",
+    "name": "sys_ux_ribbon_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "021d8b111b222300985ba64fad4bcbce",
+    "condition": "",
+    "name": "ts_c_17_0.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "021d8b111b222300985ba64fad4bcbef",
+    "condition": "",
+    "name": "ts_c_17_1.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "022013837f239210a3547cfb4d866576",
+    "condition": "",
+    "name": "quickactions_action",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0220e5eac7a0030089413952f09763b9",
+    "condition": "",
+    "name": "sn_dependentclient_application.*",
+    "active": "true",
+    "sys_scope": "f1d83d71c700030089413952f0976370",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02212d2653101010207bddeeff7b12b0",
+    "condition": "",
+    "name": "cxs_search_result_fields.detail_component_name",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "022478a41b710210a4a92029274bcba8",
+    "condition": "",
+    "name": "ts_c_43_9.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "022491fea3c212105d51b85de31e61a2",
+    "condition": "",
+    "name": "sn_diagram_builder_spot",
+    "active": "true",
+    "sys_scope": "1cf7ad026abf3abab12e761ddaa6e9df",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0226956753220010a393ddeeff7b12e9",
+    "condition": "",
+    "name": "sla_timer_config",
+    "active": "true",
+    "sys_scope": "76d8e8b253320010a393ddeeff7b127b",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02286e69930112102c4c098a54891841",
+    "condition": "",
+    "name": "cmdb_health_config",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "022b3ebec75200107da20b3703c26019",
+    "condition": "",
+    "name": "user_criteria",
+    "active": "true",
+    "sys_scope": "6a9ea833b763330088d9bc78ee11a88q",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "022c0bd91b262300985ba64fad4bcb84",
+    "condition": "",
+    "name": "ts_c_3_9.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "022c0bd91b262300985ba64fad4bcbd3",
+    "condition": "",
+    "name": "ts_c_3_9",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "022da4dfb78d01107f033307fe11a9d9",
+    "condition": "",
+    "name": "sn_aisearch_global_job_log",
+    "active": "true",
+    "sys_scope": "3c467b5f0bf130109e0fa4e6e9c4c946",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "022dd18c53920210dcd9ddeeff7b129e",
+    "condition": "",
+    "name": "sys_decision.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "02317df4c71301106fb2a0e55cc260e0",
+    "condition": "",
+    "name": "v_pd_lane_condition_to_run",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0232cbe2eb9230003623666cd206fe99",
+    "condition": "",
+    "name": "sys_frequency",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "023375b8eb2f0110da1861c59c5228b4",
+    "condition": "",
+    "name": "sn_ace_page",
+    "active": "true",
+    "sys_scope": "5df6db91ebe4011090fa99602a52289e",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "023862a9930112102c4c098a548918bb",
+    "condition": "",
+    "name": "cmdb_multisource_data",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "023b600bff231210f86dffffffffffb5",
+    "condition": "",
+    "name": "sys_cs_dynamic_translation_virtual_agent.*",
+    "active": "true",
+    "sys_scope": "7c395aaa53003110453cddeeff7b123c",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "023c0f9d1b262300985ba64fad4bcb27",
+    "condition": "",
+    "name": "ts_c_5_7",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "023ccb9d1b262300985ba64fad4bcb14",
+    "condition": "",
+    "name": "ts_c_5_5",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "023d433e53b330107234ddeeff7b1216",
+    "condition": "",
+    "name": "sn_rf_record_display_configuration",
+    "active": "true",
+    "sys_scope": "30a32ce6c7313010dd7ab6c427c2600e",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0243c2414765c290c62e37d2846d43f9",
+    "condition": "",
+    "name": "itom_lu_definition_usage_count",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "024866a9930112102c4c098a548918b4",
+    "condition": "",
+    "name": "sysauto_ms_report_builder",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0248a6a9930112102c4c098a54891806",
+    "condition": "",
+    "name": "sys_rel_source",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "024a91b8df110100cd7da5f59bf263f8",
+    "condition": "",
+    "name": "asmt_m2m_ycategory_matrix",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = (new AssessmentUtils()).hasAssessmentRoles(current.decision_matrix.metric_type.roles);"
+  },
+  {
+    "sys_id": "024c551043531110563cd5bbdab8f23a",
+    "condition": "",
+    "name": "sys_trend",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0253218c1b4d8410985ba64fad4bcb74",
+    "condition": "",
+    "name": "u_suppliers",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0253781e43bf31103ee6dddfcbb8f20b",
+    "condition": "",
+    "name": "wm_task_tech_preference",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0254e0e643ff2110816452cba5b8f21b",
+    "condition": "",
+    "name": "sn_ex_sp_static_content_user_criteria_no_mtom",
+    "active": "true",
+    "sys_scope": "4249e63a28d54d61bb6fbf61fd86cccb",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0255e20753d1f110fdadddeeff7b124e",
+    "condition": "",
+    "name": "a693e68353d1f110fdadddeeff7b12c7",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "0258de4ad733220034d145bcce6103e2",
+    "condition": "",
+    "name": "cxs_table_fltr_condition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "025c152953322210221a644b21f7b455",
+    "condition": "",
+    "name": "sys_gen_ai_detector_few_shot_pattern",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02610c60eb153110101c378ab55228a3",
+    "condition": "sys_id=1a48ee38eb413110101c378ab552287a^ORsys_id=1aa13eb8eb413110101c378ab5522805^ORsys_id=52713eb8eb413110101c378ab5522800^ORsys_id=79a86678eb413110101c378ab55228ac^ORsys_id=85e1aaf0eb413110101c378ab5522871^ORsys_id=c7a232b0eb813110101c378ab5522841^ORsys_id=d194ea34eb413110101c378ab5522868^ORsys_id=d441fab8eb413110101c378ab55228d9^EQ",
+    "name": "sys_sensitive_data_handling_regex",
+    "active": "true",
+    "sys_scope": "91c0c191531b3010b6e8ddeeff7b127b",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0267f39afb3222102ba6fc32beefdc82",
+    "condition": "",
+    "name": "ts_c_47_6.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0267fd429f002200ef4afa7dc67fcf3f",
+    "condition": "",
+    "name": "sys_api_stats_whitelist",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0269f57aeb401210a8c99147c152283d",
+    "condition": "",
+    "name": "sys_dm_job",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "026bda371b23200050fdfbcd2c071301",
+    "condition": "state=1^EQ",
+    "name": "wm_task.location",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "answer = gs.hasRole('wm_qualifier');\nif(gs.hasRole('wm_task_initiator')){\n\tanswer = global.FSMUtil.canInitiatorEdit(current);\n}"
+  },
+  {
+    "sys_id": "026cdb0167422300a0bd35e643415a33",
+    "condition": "",
+    "name": "awa_integration_user",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "REST_Endpoint",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "026d6ef10f501210e7f2da1e68767eed",
+    "condition": "",
+    "name": "help_setup_dependency",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "026fd23b373d3110878cafdd84924b6d",
+    "condition": "",
+    "name": "sn_wn_content_media_m2m",
+    "active": "true",
+    "sys_scope": "cb08e377eb9071106fb3951ff15228b8",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "02719b951b262300985ba64fad4bcbba",
+    "condition": "",
+    "name": "ts_c_13_1",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0271db951b262300985ba64fad4bcb00",
+    "condition": "",
+    "name": "ts_c_13_2",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0271db951b262300985ba64fad4bcbc9",
+    "condition": "",
+    "name": "ts_c_13_6.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0272117253012200376acbaac2dc3468",
+    "condition": "",
+    "name": "ua_sp_logouts",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02732a3c838312109d5adbe4d12bc086",
+    "condition": "",
+    "name": "chat_queue_entry",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02795a6eb7610210a616c5a8ee11a971",
+    "condition": "",
+    "name": "cmdb_multilevel_queue_item",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "027f3db1fc543300964f1e70a9c62b78",
+    "condition": "tracking_numberISEMPTY^EQ",
+    "name": "alm_transfer_order_line.tracking_number",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02843332c320110067ec37659bba8ff2",
+    "condition": "",
+    "name": "sc_cat_item_catalog",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "028759e01b1232104a226283b24bcbe4",
+    "condition": "",
+    "name": "sys_integration_metering_resource_exclusion",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02885a6437001300a213a7f07e41f196",
+    "condition": "",
+    "name": "interaction_queue_transfer",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "029089bed7812200de92a5f75e61035f",
+    "condition": "",
+    "name": "cmdb_group_contains_qb_query",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0290da0693a012104de7335b448918c2",
+    "condition": "",
+    "name": "oauth_entity",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02958fc9fb742210f9d0f3acaeefdca5",
+    "condition": "",
+    "name": "ts_c_44_1.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "029868e87f9b521090975aba3c866504",
+    "condition": "",
+    "name": "1b87ac687f9b521090975aba3c8665c1",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "0298b7d57f310210864d8b2cac8665bb",
+    "condition": "",
+    "name": "sys_analytics_batch_state.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "029a94d7e70033009a610558d2f6a979",
+    "condition": "",
+    "name": "alm_custom_template_task",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "029ae2e943150210243f9cd82ab8f2b8",
+    "condition": "",
+    "name": "sn_storage_cloud_consumption",
+    "active": "true",
+    "sys_scope": "9641d1d043110210243f9cd82ab8f2ab",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "029bf6087f3012106b6f23a37d86657e",
+    "condition": "",
+    "name": "sys_update_set_log",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "029ceea19f1c121067b009923b0a1c2a",
+    "condition": "",
+    "name": "sn_sub_man_gen_ai_usage_details_aggregate",
+    "active": "true",
+    "sys_scope": "86d7bb63ff021110468365d7d3b8fe41",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "029d42f5935012100a004c52848918be",
+    "condition": "",
+    "name": "sys_security_table_level_audit",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "029e470feb361110da1861c59c52285f",
+    "condition": "",
+    "name": "sys_cs_ca_message",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "029e88d437002200612747efbe41f11e",
+    "condition": "",
+    "name": "sn_devstudio_user_preferences",
+    "active": "true",
+    "sys_scope": "5d9789f3eb51310007e48c1cf106fe9e",
+    "type": "record",
+    "operation": "create",
+    "script": "answer = current.user.sys_id === gs.getUserID();"
+  },
+  {
+    "sys_id": "029f34547f0000101952baf8befa9191",
+    "condition": "",
+    "name": "cmdb_key_value",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "029fefc8c3a121100f24c87af040ddf9",
+    "condition": "",
+    "name": "sys_cs_collab_chat_webhook_registry",
+    "active": "true",
+    "sys_scope": "53b1b0e79761011018b2fa98c253afcc",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "02a1b54e233210101488dc1756bf6516",
+    "condition": "",
+    "name": "task_cmdb_ci_business_app",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02a27ca7c37611108787ac8b8640dd29",
+    "condition": "",
+    "name": "sn_doc_task_execution",
+    "active": "true",
+    "sys_scope": "6a9ea833b763330088d9bc78ee11a88q",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = gs.hasRole(\"sn_doc.admin\") || current.task.getRefRecord().canRead();"
+  },
+  {
+    "sys_id": "02a40c30eb120200e628648d9106febc",
+    "condition": "",
+    "name": "amb_welcome",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "ui_page",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02a48e1cff0312101471fffffffffff0",
+    "condition": "",
+    "name": "pa_indicator_aggregated_metrics",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "02a49feaff6b121065e6ffffffffffb5",
+    "condition": "",
+    "name": "sys_sg_custom_map_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02a49feaff6b121065e6ffffffffffd7",
+    "condition": "",
+    "name": "sys_sg_offline_result_m2m_mobile_responder",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02a5038dfb742210f9d0f3acaeefdca9",
+    "condition": "",
+    "name": "ts_c_46_2.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02a7261f77b01110cd1b756f1b5a99bc",
+    "condition": "",
+    "name": "m2m_connected_category",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = gs.hasRole(\"taxonomy_admin\") || new global.TaxonomyUtil().isTaxonomyManager() || new global.TaxonomyUtil().isTaxonomyContributor(current.topic.taxonomy.toString()) || new global.TopicPermissionUtil().isTopicManager(current.topic.toString()) || new global.TopicPermissionUtil().isTopicContributor(current.topic.toString()) || current.isNewRecord();"
+  },
+  {
+    "sys_id": "02ac47ae43209a10b98152304bb8f2b2",
+    "condition": "",
+    "name": "service_availability",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02adcaa2eb9230003623666cd206fed4",
+    "condition": "",
+    "name": "sc_cat_item_dt_approval",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02b4e39b1b6af5105eeb7ea5464bcbb6",
+    "condition": "",
+    "name": "wm_order.u_wo_claim_status",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02b73b57ff721010667053ea793bf131",
+    "condition": "",
+    "name": "sys_playbook_experience_status_to_state",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02b95c9553630010763eddeeff7b1288",
+    "condition": "",
+    "name": "ga_guidance_input",
+    "active": "true",
+    "sys_scope": "fd76ed5a3b570010119c870044efc470",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02bf914d93932200c9a7db47c47ffbc1",
+    "condition": "",
+    "name": "sys_scoped_admin_acl_inheritance",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "answer = GlideSecurityManager.get().isScopeAdmin(current.sys_scope);"
+  },
+  {
+    "sys_id": "02c1135d1b262300985ba64fad4bcb0c",
+    "condition": "",
+    "name": "ts_c_23_8",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02c1b6011b7310002502fbcd2c0713bd",
+    "condition": "",
+    "name": "alm_asset.stockroom",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02c8dd201b5232104a226283b24bcb0b",
+    "condition": "",
+    "name": "ts_c_49_0",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02c9230fb73100101cadbc78ee11a944",
+    "condition": "",
+    "name": "sn_doc_pdf_template_mapping",
+    "active": "true",
+    "sys_scope": "6a9ea833b763330088d9bc78ee11a88q",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02c9a48d470311002ee987e8dee490d3",
+    "condition": "",
+    "name": "sc_ic_question_choice",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "sc_ic_Factory.getSecurityManager(current).canRead();"
+  },
+  {
+    "sys_id": "02cca73753122300c792ddeeff7b1296",
+    "condition": "",
+    "name": "sys_atf_modified_record_m2m",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02cff21d73413010c94f54eb7df6a7b7",
+    "condition": "",
+    "name": "sn_ex_sp_footer",
+    "active": "true",
+    "sys_scope": "4249e63a28d54d61bb6fbf61fd86cccb",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02d3e314531313008cd9ddeeff7b124c",
+    "condition": "",
+    "name": "sys_ui_element",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02d46181c70010108ad4010703c260a5",
+    "condition": "",
+    "name": "kb_knowledge_base",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "02d4e02a0f3323003d0e4062ff767e3b",
+    "condition": "",
+    "name": "sys_search_suggestion_blacklist",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02d58a0cc7231010393d265c95c260c4",
+    "condition": "",
+    "name": "sp_portal.search_results_configuration",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "54f535270a0a0b8c007c67009ab2bdc0",
+    "script": ""
+  },
+  {
+    "sys_id": "02d7cda793a3020042cf530b547ffb3f",
+    "condition": "",
+    "name": "sc_item_variable_assignment",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "gs.hasRole('catalog_admin')||new SNCCatalogUtil().canCreate(current.rule.guide);"
+  },
+  {
+    "sys_id": "02ddf6bec7b1330034d1f8d07a9763f2",
+    "condition": "",
+    "name": "contract_rel_user",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02df2cf673133300fdfc066a4cf6a737",
+    "condition": "",
+    "name": "sys_api_collection",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02e016147ffc12100c5dffd73c86650a",
+    "condition": "",
+    "name": "sys_app_template_dependency_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02e0d2147ffc12100c5dffd73c8665ab",
+    "condition": "",
+    "name": "sys_app_scan_variable_type",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02e0d2147ffc12100c5dffd73c8665cc",
+    "condition": "",
+    "name": "sys_app_template",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02e25d530b20230001d36c4d37673a6c",
+    "condition": "",
+    "name": "oauth_credential.token",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = ( current.user == gs.getUserID() || gs.hasRole(\"maint\") );\n\t\t\t  "
+  },
+  {
+    "sys_id": "02e42211772631101b803a91fa5a992b",
+    "condition": "",
+    "name": "sn_vsc_best_practice_configurations",
+    "active": "true",
+    "sys_scope": "a51d46e3f2014110366b10017c5ba675",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02e435d97738911023651605bc5a99d4",
+    "condition": "",
+    "name": "e294fd997738911023651605bc5a9937",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "02e46adc779179103bce067f5b5a9910",
+    "condition": "",
+    "name": "sn_cmdb_ws_reconcile_duplicate_template_suggested_task",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02e840540b00001024f8ae9b37673a94",
+    "condition": "",
+    "name": "ua_audit_stats",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02ec36c5fb302210f9d0f3acaeefdcc5",
+    "condition": "",
+    "name": "sn_glider_ide_file_index.*",
+    "active": "true",
+    "sys_scope": "fd254d9443a161100967247e6bb8f200",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02ed0f12073101108d6d78e99cd3005e",
+    "condition": "",
+    "name": "sn_ex_sp_st_favorite",
+    "active": "true",
+    "sys_scope": "4249e63a28d54d61bb6fbf61fd86cccb",
+    "type": "record",
+    "operation": "read",
+    "script": "gs.getSession().isLoggedIn();"
+  },
+  {
+    "sys_id": "02ee8d9173202010e6b632e954f6a75a",
+    "condition": "",
+    "name": "nlu_performance_utterance_trace",
+    "active": "true",
+    "sys_scope": "31f5f491c3a710100bf407720f40ddf4",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02f013007fb012106b6f23a37d866594",
+    "condition": "",
+    "name": "sys_global_file_hash",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02f408e3ff0122107d70ffffffffffae",
+    "condition": "",
+    "name": "temp_flow_debugger_script",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "02f44ac14765c290c62e37d2846d434c",
+    "condition": "",
+    "name": "itom_lu_definition_usage_count",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "02f66afd5393301097a3ddeeff7b1236",
+    "condition": "",
+    "name": "sys_decision_multi_result",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = true;\n\nif(gs.getProperty('com.glide.decision_table.gate_feature') == 'true' && !(gs.hasRole('maint'))) {\n\tanswer = false;\n} "
+  },
+  {
+    "sys_id": "02fbab270fe30010a4dff00c97767e39",
+    "condition": "",
+    "name": "sys_administrative_script_transaction",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "false;"
+  },
+  {
+    "sys_id": "02fcc21dc7310010bfbaf89f51c260e6",
+    "condition": "",
+    "name": "sys_playbook_activity_renderer",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "02ffb74cebb1311007d5a1c6285228e5",
+    "condition": "",
+    "name": "product_instance_identifier_parameters",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "02fffcfe0773101028ef0a701ad30068",
+    "condition": "",
+    "name": "nlu_batch_test_utterance",
+    "active": "true",
+    "sys_scope": "31f5f491c3a710100bf407720f40ddf4",
+    "type": "record",
+    "operation": "delete",
+    "script": "if (gs.hasRole('nlu_admin')) {\n    answer = true;\n} else if (gs.hasRole('nlu_editor') && NLUBatchTestSet.canUserCreateUpdateRecord) {\n    answer = NLUBatchTestSet.canUserCreateUpdateRecord(current.test_set, gs.getUserID());\n} else {\n    answer = false;\n}"
+  },
+  {
+    "sys_id": "0300820f873332008a4a578c87cb0bf2",
+    "condition": "",
+    "name": "business_unit",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03051ef3079102104c73f5100ad30032",
+    "condition": "",
+    "name": "sn_ex_sp_send_self_configuration",
+    "active": "true",
+    "sys_scope": "4249e63a28d54d61bb6fbf61fd86cccb",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03070cac934631103fce469f748918b3",
+    "condition": "",
+    "name": "sys_ux_data_broker_scriptlet",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": "answer = UIBScriptables.isDDUserWithUIBuilderPermission();"
+  },
+  {
+    "sys_id": "03076c217f1c1210461758066d8665fd",
+    "condition": "",
+    "name": "live_tag",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "0308c0f67f110210ae3e0ee66d86656b",
+    "condition": "",
+    "name": "sn_nowassist_diagn_package",
+    "active": "true",
+    "sys_scope": "7b67ecf7437042105947644c7ab8f21b",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "030e5f0653a321106e33ddeeff7b12c4",
+    "condition": "",
+    "name": "ml_word_vector_corpus",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "031906814374121062e9927e8bb8f228",
+    "condition": "",
+    "name": "sys_db_cache",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "031b8bdc437912105652cfedefb8f2a2",
+    "condition": "",
+    "name": "24eecef4738a1010e37d71ef64f6a73b",
+    "active": "true",
+    "sys_scope": "7a9ab70373830010e37d71ef64f6a78b",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "031e69da5b101210b0d51e991e81c778",
+    "condition": "",
+    "name": "temp_cmdb_ci_disk",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03235d368763021019b2ed3e0ebb35d7",
+    "condition": "",
+    "name": "sys_ui_macro.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0323c38e7778111023651605bc5a99bd",
+    "condition": "",
+    "name": "e6f6be067778111023651605bc5a996f",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "03252da87fc05210cc0b38b8ec866594",
+    "condition": "",
+    "name": "mid_k8s_deployment",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0325b200ff0522109da9ffffffffffbf",
+    "condition": "",
+    "name": "sys_ire_partial_payload_pattern",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0326fb18930631103fce469f74891861",
+    "condition": "",
+    "name": "sys_ux_data_broker_transform",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "032702b7d7110200bef20ee60e6103df",
+    "condition": "",
+    "name": "alm_asset.assigned_to",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03286e69930112102c4c098a54891893",
+    "condition": "",
+    "name": "cmdb_health_metric_status",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "032cc1c7eb0220105de665fcc852284f",
+    "condition": "primary_modelISEMPTY^EQ",
+    "name": "sys_nlu_model.display_name",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "032ea2ff3c711210f8770959e7b8d798",
+    "condition": "",
+    "name": "sp_ui_formatter",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03324064c7230010d1cfd9795cc260a2",
+    "condition": "",
+    "name": "ais_connection",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0335dcc977ebb910ea4d79ba2c5a99bd",
+    "condition": "",
+    "name": "sa_baselines",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0336a8a61b03011045d74195d34bcbf5",
+    "condition": "",
+    "name": "v_st_popular_item.*",
+    "active": "true",
+    "sys_scope": "2263a68187032300e0ef0cf888cb0b3f",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "033709e0d7101200a9addd173e24d47b",
+    "condition": "",
+    "name": "sp_js_include",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "033899d343341210a371a0246bb8f2b8",
+    "condition": "",
+    "name": "sys_api_stats_script",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0338a2a9930112102c4c098a5489180d",
+    "condition": "",
+    "name": "cmdb_multisource_query",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "033b346b4fa12210c98b8a4a91ce0bd8",
+    "condition": "",
+    "name": "promin_highlights_question_metric_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "033d59ed49945210f877085c5dc69db9",
+    "condition": "",
+    "name": "sys_ux_m2m_workspace_header_ux_header_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03400ec11bc49c10985ba64fad4bcb64",
+    "condition": "",
+    "name": "sc_request.comments",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": "current.requested_for == gs.getUserID() || current.opened_by == gs.getUserID() || current.caller_id == gs.getUserID() || current.watch_list.indexOf(gs.getUserID()) > -1 || gs.hasRole('itil') || gs.hasRole('ess_requestor') || gs.hasRole('service_fulfiller');"
+  },
+  {
+    "sys_id": "034231e05301220025472c39e3dc34c8",
+    "condition": "",
+    "name": "ts_index_synonym_dictionary",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "034474ac7f8192103ff504866d86652d",
+    "condition": "",
+    "name": "sys_analytics_data_points_error.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03450417379a92106cdecc4883924bb9",
+    "condition": "",
+    "name": "sys_cs_collab_channel",
+    "active": "true",
+    "sys_scope": "53b1b0e79761011018b2fa98c253afcc",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03480b1437a030007415bfc8bcbe5d93",
+    "condition": "state=draft^EQ",
+    "name": "ast_contract.tax_exempt",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0348e6a9930112102c4c098a5489187e",
+    "condition": "",
+    "name": "statemgmt_not_allow_ops",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "0348e6a9930112102c4c098a548918bf",
+    "condition": "",
+    "name": "statemgmt_register_users",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "034f61fd0f851010f4166fe7c4767e93",
+    "condition": "",
+    "name": "sys_hub_ui_element",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "034fdbba073c011028ef0a701ad3008a",
+    "condition": "",
+    "name": "ml_label_user_feedback",
+    "active": "true",
+    "sys_scope": "31f5f491c3a710100bf407720f40ddf4",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0353f0f57fe31290076726d6ac86658f",
+    "condition": "",
+    "name": "81c234b57fe31290076726d6ac866513",
+    "active": "true",
+    "sys_scope": "7c395aaa53003110453cddeeff7b123c",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "03547be7732023004a905ee515f6a762",
+    "condition": "",
+    "name": "sn_customerservice_case.short_description",
+    "active": "true",
+    "sys_scope": "51d811fad7223100b7490ee60e61034f",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03594916d7310200bef20ee60e61038f",
+    "condition": "",
+    "name": "cmdb_facility_product_model",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "ui_page",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "035b89f07fc512108e66144a5b8665ba",
+    "condition": "",
+    "name": "cmdb_group_type",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "035bd6ad935012104de7335b44891884",
+    "condition": "",
+    "name": "sys_auth_profile_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "035cf47bb7012110b87e80408e11a955",
+    "condition": "",
+    "name": "sn_cmdb_ws_base_aggregate_data",
+    "active": "true",
+    "sys_scope": "c8ab76825371201032b7ddeeff7b1280",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "035f8f64c77a3010408bc8d6f2c260cd",
+    "condition": "",
+    "name": "sn_pipeline_request_authorization_key",
+    "active": "true",
+    "sys_scope": "e78853e9c3222010b83971e54440dd26",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0361d4c6ff300200b18affffffffffab",
+    "condition": "",
+    "name": "std_change_proposal",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": "answer=false;"
+  },
+  {
+    "sys_id": "0363ab31c7a12010ca6da1e603c26019",
+    "condition": "",
+    "name": "sc_service_fulfillment_step",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write"
+  },
+  {
+    "sys_id": "0365e947ef70300098d5925495c0fb93",
+    "condition": "",
+    "name": "sys_object_source",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03673eb86f16511089060168e25b3622",
+    "condition": "",
+    "name": "par_notification",
+    "active": "true",
+    "sys_scope": "9509c0e54e289e08608566160eb606cb",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "03687e6b53331300a8ed21fac2dc3491",
+    "condition": "",
+    "name": "appsec_domain_result_set",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "036ced94936116104d0a423b92891864",
+    "condition": "",
+    "name": "fc5be914936116104d0a423b92891849",
+    "active": "true",
+    "sys_scope": "757c34719bf7f10c4a1f9fe81ba8bba3",
+    "type": "6d9c40e9531210101cb3ddeeff7b12f6",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "037745c353032200ef65cbaac2dc3460",
+    "condition": "",
+    "name": "ua_entitlement",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "037787600b73101099b8ea7885673a47",
+    "condition": "",
+    "name": "cmdb_dynamic_ire_match",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03780cec9f13220090c2bb0e832e701b",
+    "condition": "",
+    "name": "pa_scores.breakdown",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "54f535270a0a0b8c007c67009ab2bdc0",
+    "script": "var answer = false;"
+  },
+  {
+    "sys_id": "037cd20457a71010a9ad78e1a95529b9",
+    "condition": "",
+    "name": "announcement_style",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "037fdaa2d7702200cc4b00285e610344",
+    "condition": "",
+    "name": "cxs_filter_mapping",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0383bc02679e10106f023b4717415ad6",
+    "condition": "",
+    "name": "pa_calendars_retention",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03841beaff6b121065e6ffffffffffc9",
+    "condition": "",
+    "name": "sys_sg_ui_style",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03841beaff6b121065e6ffffffffffeb",
+    "condition": "",
+    "name": "sys_sg_alp_quick_action_map",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "0385c6d05ba50210b0d51e991e81c7ea",
+    "condition": "",
+    "name": "discovery_help_link",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "038654b27f40221024de08776d86652f",
+    "condition": "",
+    "name": "ua_scripted_defn",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "0386920a9f1030007bb2ed93ee4bcc86",
+    "condition": "",
+    "name": "catalog_dl_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03871834a141a210f877f4e599decfd9",
+    "condition": "",
+    "name": "ast_contract.starts",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "e66cf897b7300210240b06dd1e11a9fd",
+    "script": ""
+  },
+  {
+    "sys_id": "038a665b73332300e64cc1f52ff6a7e1",
+    "condition": "",
+    "name": "trend_recommendation",
+    "active": "true",
+    "sys_scope": "da8f2ef273232300e64cc1f52ff6a78f",
+    "type": "record",
+    "operation": "write",
+    "script": "false; // This ACL was created by uninstall. DO NOT EDIT"
+  },
+  {
+    "sys_id": "038b4a1f1b162110c979ecade54bcbe8",
+    "condition": "",
+    "name": "ts_c_38_4",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "038c6ef9432a1210e777c91766b8f2e4",
+    "condition": "",
+    "name": "sn_sub_man_st_subscription_license_detail_metric",
+    "active": "true",
+    "sys_scope": "86d7bb63ff021110468365d7d3b8fe41",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "038c6ef9432a1210e777c91766b8f2f1",
+    "condition": "",
+    "name": "sn_sub_man_st_subscription_license_detail_metric",
+    "active": "true",
+    "sys_scope": "86d7bb63ff021110468365d7d3b8fe41",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "038d9a8a43520210fbb28b11afb8f276",
+    "condition": "",
+    "name": "/api/sn_wwna/wwna/",
+    "active": "true",
+    "sys_scope": "757c34719bf7f10c4a1f9fe81ba8bba3",
+    "type": "REST_Endpoint",
+    "operation": "execute",
+    "script": ""
+  },
+  {
+    "sys_id": "03915b591b262300985ba64fad4bcb25",
+    "condition": "",
+    "name": "ts_c_18_9",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "0391905153630010763eddeeff7b129e",
+    "condition": "",
+    "name": "ga_guidance",
+    "active": "true",
+    "sys_scope": "fd76ed5a3b570010119c870044efc470",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03941a19a31231108d80ad2f241e6161",
+    "condition": "",
+    "name": "sys_progress_worker",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03942680bf201100b96dac808c0739a9",
+    "condition": "",
+    "name": "pa_scores",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "039baaa987521010420e5cdac5cb0b62",
+    "condition": "",
+    "name": "sn_km_mr_st_kb_knowledge",
+    "active": "true",
+    "sys_scope": "b3a70c8a530323004c36ddeeff7b124c",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03a113d91b262300985ba64fad4bcb49",
+    "condition": "",
+    "name": "ts_c_20_0.*",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03a113d91b262300985ba64fad4bcbfa",
+    "condition": "",
+    "name": "ts_c_20_3",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03a3ae120a000704015034e42019627a",
+    "condition": "",
+    "name": "kb_feedback",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03a3e67253322200184e289e16dc34d8",
+    "condition": "document=sys_flow_step_definition^EQ",
+    "name": "sys_variable_value",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "03a44f5077e02110b15a31cd6b5a99ef",
+    "condition": "",
+    "name": "sys_ih_external_webhook",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": "answer = (new FlowDesignerContentFiltering().canRead(current));"
+  },
+  {
+    "sys_id": "03a48737c3445210baa38ec18d40dd0a",
+    "condition": "",
+    "name": "help_user_interaction_step",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03a53167b71101107f033307fe11a910",
+    "condition": "migration_orchestration.state=CONFIGURATION_CONVERTED^EQ",
+    "name": "sn_aisearch_global_job_staging.state",
+    "active": "true",
+    "sys_scope": "3c467b5f0bf130109e0fa4e6e9c4c946",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03a553d80a00070400119b16fc8aac59",
+    "condition": "",
+    "name": "kb_feedback",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03a66a3083c312109d5adbe4d12bc05c",
+    "condition": "",
+    "name": "live_mention",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "03a6c5c00b013200c7ecc71437673a5c",
+    "condition": "",
+    "name": "ml_trainer_definition",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03a7d0ea0a00070400c9ca3377c6747a",
+    "condition": "",
+    "name": "kb_feedback.*",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03a7f69b0a000704017c506871b10178",
+    "condition": "",
+    "name": "kb_feedback.flagged",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03a89fac73c033004030e67bcaf6a7e7",
+    "condition": "",
+    "name": "sc_cat_item_subscribe_no_mtom",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03a9d93bb3333200f7d1a13816a8dc65",
+    "condition": "categoryNOT LIKEb1dfd7c254103300fa9b212481c502cb^name!=_empty_topic_^EQ",
+    "name": "sys_cb_topic",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03aa99c60a000704006e8230b942baab",
+    "condition": "",
+    "name": "kb_feedback.work_notes",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03ab870b77c012104c781b699a5a9985",
+    "condition": "",
+    "name": "ecc_queue_config",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "0997ab83733303005978e4b9cdf6a7b9",
+    "script": ""
+  },
+  {
+    "sys_id": "03ac96ef0a00070401b9d1127bd48343",
+    "condition": "",
+    "name": "kb_navons",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03ad0cbf0a0007040145499bdfa006ad",
+    "condition": "",
+    "name": "kb_navons",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03adb1320a000704009073fc59032685",
+    "condition": "",
+    "name": "kb_navons",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03ae484e0a000704008052a5de12b14e",
+    "condition": "",
+    "name": "kb_use",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03ae60d40a0007040097b03343d714af",
+    "condition": "",
+    "name": "kb_use",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03ae7a3c0a000704009e5fed83f82d19",
+    "condition": "",
+    "name": "kb_use",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  },
+  {
+    "sys_id": "03af25ab0a00070401e100ae0da80622",
+    "condition": "",
+    "name": "kb_use",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "03af71070a00070400fd3c63a548f787",
+    "condition": "",
+    "name": "kb_navons",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "03afba920a00070400842d23a2d6eb3f",
+    "condition": "",
+    "name": "kb_feedback",
+    "active": "false",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "delete",
+    "script": ""
+  },
+  {
+    "sys_id": "03b07d0f53510010a980ddeeff7b1232",
+    "condition": "",
+    "name": "promin_breakdown_field",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "create",
+    "script": ""
+  },
+  {
+    "sys_id": "03b17359536313003e38ddeeff7b12ea",
+    "condition": "",
+    "name": "svc_recomputation_log",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "read",
+    "script": ""
+  },
+  {
+    "sys_id": "03b59a0deb1101006a668c505206fef0",
+    "condition": "",
+    "name": "pwd_user_lockout",
+    "active": "true",
+    "sys_scope": "global",
+    "type": "record",
+    "operation": "write",
+    "script": ""
+  }
+]

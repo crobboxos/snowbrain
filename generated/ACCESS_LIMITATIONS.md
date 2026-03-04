@@ -1,3 +1,3 @@
 # Access Limitations
 
-- OAuth/token failure: <urlopen error Tunnel connection failed: 403 Forbidden>
+- None observed for accessed tables.

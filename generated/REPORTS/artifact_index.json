@@ -1,3 +1,32 @@
 {
-  "error": "OAuth/token failure: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  "generated_at": "2026-03-04T11:53:31.048900+00:00",
+  "base_url": "https://xeretecdev.service-now.com",
+  "documents": {
+    "ceo_brief": "CEO_BRIEF.docx",
+    "readme": "README.md"
+  },
+  "counts": {
+    "sys_db_object": 499,
+    "sys_dictionary": 499,
+    "sys_script": 498,
+    "sys_script_include": 498,
+    "sys_script_client": 491,
+    "sys_ui_action": 494,
+    "sysauto_script": 497,
+    "sys_hub_flow": 305,
+    "sys_rest_message": 11,
+    "sys_rest_message_fn": 28,
+    "sys_soap_message": 8,
+    "sysevent_register": 499,
+    "sys_security_acl": 498,
+    "dependency_edges": 1168
+  },
+  "runtime_config": {
+    "page_size": 500,
+    "max_tables": 0,
+    "max_records_per_table": 0,
+    "max_rpm": 120,
+    "graph_edge_limit": 0
+  },
+  "access_limitations": []
 }
